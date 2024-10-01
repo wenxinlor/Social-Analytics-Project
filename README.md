@@ -14,4 +14,27 @@ The preprocessing pipeline consists of:
 1. **Lemmatization (NLTK)**: Ensures consistency by reducing words to their base form.
 2. **Contraction Expansion (Python re module)**: Expands contractions like “don’t” to “do not”.
 3. **Special Character Removal (Python re module)**: Removes emojis and special characters.
-4. **General Cleaning**: Standardizes text, converts
+4. **General Cleaning**: Standardizes text, converts to lowercase, and filters out short or irrelevant sentences.
+
+### Analysis Methods
+1. **Demographic Analysis**: Using Meta Business Suite, we identified the age group, gender, and reach of Fieldseas’ audience. 
+   - **Key Insight**: Fieldseas' audience is primarily middle-aged, with Facebook having a larger reach than Instagram.
+
+2. **Network Analysis**: Using IG Exporter and Gephi, we analyzed the network of followers.
+   - **Key Insight**: Identified potential collaborators like @Shiokeats.official and @Pullmansingaporeorchard from Instagram for future business partnerships.
+
+3. **Sentiment Analysis**: Conducted using SAS Viya to determine positive, negative, or neutral sentiments around Wagyu beef.
+   - **Key Insight**: General sentiment towards Wagyu beef is positive, especially around its marbling and tenderness.
+
+4. **Topic Modelling**: AWS Comprehend was used to extract common themes discussed around Wagyu beef.
+   - **Key Insight**: Popular topics include the premium quality of Wagyu beef, its sustainability, and cooking techniques.
+
+### Tools and Libraries Used
+- **Python Libraries**: `NLTK`, `re`, `pandas`, etc.
+- **Data Scraping Tools**: Phantom Buster, Apify’s TikTok Scraper, IG Exporter
+- **Network Analysis**: Gephi, NetworkX
+- **Sentiment & Topic Modelling**: SAS Viya, AWS Comprehend
+
+### Results
+This analysis provides actionable insights into Fieldseas’ audience demographics, social media engagement, and customer sentiment. Recommendations are made to improve content strategy and increase engagement through targeted campaigns and collaborations.
+
